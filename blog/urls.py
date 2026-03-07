@@ -5,4 +5,5 @@ urlpatterns =[
     path('posts/<int:pk>/',blog_detail,name="detail"),
     path('like_posts/<int:pk>/',post_like,name="like"),
     path('post/search_results',search, name="search")
-    ]
+]
+
