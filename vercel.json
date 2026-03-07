@@ -8,8 +8,9 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "blog/wsgi.py"
+      "dest": "myblog/wsgi.py"
     }
   ]
 
 }
+
